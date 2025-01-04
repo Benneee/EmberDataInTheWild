@@ -1,0 +1,6 @@
+{{page-title "Cats"}}
+{{#each @model as |cat|}}
+  <p>{{cat.name}}</p>
+  <p>{{cat.home.street}}</p>
+{{/each}}
+{{outlet}}
